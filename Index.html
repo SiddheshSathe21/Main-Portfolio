@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Siddhesh Sathe &mdash; Website Designer &amp; Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- EmailJS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+
+<div id="cursor"></div>
+
+<!-- ═══ NAV ═══ -->
+<nav>
+  <div class="nav-logo"><span>SS</span>.dev</div>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#services">Services</a>
+    <a href="#experience">Experience</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <button class="theme-btn" id="themeBtn">&#9728;&#65039;</button>
+</nav>
+
+<!-- ═══ HERO ═══ -->
+<section id="hero">
+  <div class="glow g1"></div>
+  <div class="glow g2"></div>
+  <div class="hero-inner">
+    <div>
+      <div class="badge"><span class="dot-pulse"></span>Open to Opportunities</div>
+      <h1 class="hero-title">
+        Designing<br/>
+        <em>beautiful</em><br/>
+        web<br/>
+        experiences.
+      </h1>
+      <p class="hero-sub">
+        Hi, I'm <strong>Siddhesh Sathe</strong> &mdash; a Website Designer &amp; Developer from Pune.
+        I craft clean, responsive websites and web apps with a focus on great design and solid code.
+      </p>
+      <div class="hero-ctas">
+        <a href="#services" class="btn-a">
+          My Services
+          <svg width="12" height="12" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0l8 8-8 8-1.4-1.4 5.6-5.6H0V7.4h12.2L6.6 1.4z"/></svg>
+        </a>
+        <a href="#contact" class="btn-b">Get in Touch</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/SiddheshSathe21" target="_blank" class="hsoc">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/siddhesh-sathe-4031213b0" target="_blank" class="hsoc">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          LinkedIn
+        </a>
+        <a href="mailto:sathesiddhesh16@gmail.com" class="hsoc">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Email
+        </a>
+      </div>
+    </div>
+    <div class="stats">
+      <div class="sc"><div class="sn" data-val="20">20+</div><div class="sl">Projects Shipped</div></div>
+      <div class="sc"><div class="sn" data-val="3">3</div><div class="sl">Months Internship</div></div>
+      <div class="sc"><div class="sn" data-val="9">9</div><div class="sl">Skills Mastered</div></div>
+      <div class="sc"><div class="sn" data-val="3">3</div><div class="sl">Services Offered</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ ABOUT ═══ -->
+<section id="about">
+  <div class="cnt">
+    <div class="ag">
+      <div class="rv">
+        <p class="stag">// 01 &mdash; About Me</p>
+        <h2 class="stitle">Design meets<br/>clean code.</h2>
+        <p class="ap">I'm <strong>Siddhesh Tanaji Sathe</strong>, a Website Designer &amp; Developer currently pursuing a Diploma in Computer Engineering at Y.B. Patil Polytechnic, Akurdi, Pune.</p>
+        <p class="ap">I love turning ideas into real, working products &mdash; from designing UI in Figma to building it with HTML, CSS, React and Python. I enjoy building things that look great and work even better.</p>
+        <div class="trow">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">React</span>
+          <span class="tag">Python</span>
+          <span class="tag">Java</span>
+          <span class="tag">Figma</span>
+          <span class="tag">GitHub</span>
+        </div>
+      </div>
+      <div class="rv">
+        <div class="code-win">
+          <div class="cbar">
+            <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+            <span class="cfile">developer.js</span>
+          </div>
+          <div class="cbody">
+            <span class="cm">// Who am I?</span><br/>
+            <span class="kw">const</span> <span class="fn">me</span> = {<br/>
+            &nbsp;&nbsp;<span class="str">name</span>: <span class="str">"Siddhesh T. Sathe"</span>,<br/>
+            &nbsp;&nbsp;<span class="str">role</span>: <span class="str">"Web Designer &amp; Dev"</span>,<br/>
+            &nbsp;&nbsp;<span class="str">location</span>: <span class="str">"Pune, India"</span>,<br/>
+            &nbsp;&nbsp;<span class="str">college</span>: <span class="str">"Y.B. Patil Poly."</span>,<br/>
+            &nbsp;&nbsp;<span class="str">skills</span>: [<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span class="str">"HTML"</span>, <span class="str">"CSS"</span>, <span class="str">"JS"</span>,<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span class="str">"React"</span>, <span class="str">"Python"</span>,<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span class="str">"Java"</span>, <span class="str">"Figma"</span><br/>
+            &nbsp;&nbsp;],<br/>
+            &nbsp;&nbsp;<span class="fn">available</span>: () =&gt; <span class="ac">true</span><br/>
+            }
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ SKILLS ═══ -->
+<section id="skills">
+  <div class="cnt">
+    <div class="rv">
+      <p class="stag">// 02 &mdash; Expertise</p>
+      <h2 class="stitle">What I bring<br/>to the table.</h2>
+    </div>
+    <div class="skgrid">
+      <div class="skc rv">
+        <div class="sk-ico">&#127912;</div>
+        <h3 class="sk-ttl">UI / Web Design</h3>
+        <p class="sk-dsc">Clean, user-friendly interfaces with Figma &mdash; wireframes, prototypes and pixel-perfect mockups.</p>
+        <div class="bars">
+          <div class="brow"><span class="blbl">Figma</span><div class="btrk"><div class="bfil" style="width:88%"></div></div></div>
+          <div class="brow"><span class="blbl">HTML/CSS</span><div class="btrk"><div class="bfil" style="width:92%;animation-delay:.1s"></div></div></div>
+          <div class="brow"><span class="blbl">Responsive</span><div class="btrk"><div class="bfil" style="width:90%;animation-delay:.2s"></div></div></div>
+        </div>
+      </div>
+      <div class="skc rv">
+        <div class="sk-ico">&#9889;</div>
+        <h3 class="sk-ttl">Frontend Dev</h3>
+        <p class="sk-dsc">Interactive, fast UIs with React and modern JavaScript &mdash; component-driven and scalable.</p>
+        <div class="bars">
+          <div class="brow"><span class="blbl">JavaScript</span><div class="btrk"><div class="bfil" style="width:85%"></div></div></div>
+          <div class="brow"><span class="blbl">React</span><div class="btrk"><div class="bfil" style="width:80%;animation-delay:.1s"></div></div></div>
+          <div class="brow"><span class="blbl">HTML/CSS</span><div class="btrk"><div class="bfil" style="width:92%;animation-delay:.2s"></div></div></div>
+        </div>
+      </div>
+      <div class="skc rv">
+        <div class="sk-ico">&#9749;</div>
+        <h3 class="sk-ttl">Java</h3>
+        <p class="sk-dsc">Core Java programming &mdash; OOP, data structures and building desktop or backend applications.</p>
+        <div class="bars">
+          <div class="brow"><span class="blbl">Java</span><div class="btrk"><div class="bfil" style="width:78%"></div></div></div>
+          <div class="brow"><span class="blbl">OOP</span><div class="btrk"><div class="bfil" style="width:82%;animation-delay:.1s"></div></div></div>
+          <div class="brow"><span class="blbl">Swing</span><div class="btrk"><div class="bfil" style="width:70%;animation-delay:.2s"></div></div></div>
+        </div>
+      </div>
+      <div class="skc rv">
+        <div class="sk-ico">&#128013;</div>
+        <h3 class="sk-ttl">Python</h3>
+        <p class="sk-dsc">Scripting, automation and building utility tools with Python's clean and expressive syntax.</p>
+        <div class="bars">
+          <div class="brow"><span class="blbl">Python</span><div class="btrk"><div class="bfil" style="width:80%"></div></div></div>
+          <div class="brow"><span class="blbl">Scripting</span><div class="btrk"><div class="bfil" style="width:82%;animation-delay:.1s"></div></div></div>
+          <div class="brow"><span class="blbl">Automation</span><div class="btrk"><div class="bfil" style="width:75%;animation-delay:.2s"></div></div></div>
+        </div>
+      </div>
+      <div class="skc rv">
+        <div class="sk-ico">&#128295;</div>
+        <h3 class="sk-ttl">Tools &amp; Git</h3>
+        <p class="sk-dsc">Managing code with Git &amp; GitHub &mdash; branching, pull requests and collaborative workflows.</p>
+        <div class="bars">
+          <div class="brow"><span class="blbl">Git</span><div class="btrk"><div class="bfil" style="width:85%"></div></div></div>
+          <div class="brow"><span class="blbl">GitHub</span><div class="btrk"><div class="bfil" style="width:83%;animation-delay:.1s"></div></div></div>
+          <div class="brow"><span class="blbl">VS Code</span><div class="btrk"><div class="bfil" style="width:92%;animation-delay:.2s"></div></div></div>
+        </div>
+      </div>
+      <div class="skc rv">
+        <div class="sk-ico">&#127760;</div>
+        <h3 class="sk-ttl">Web Apps</h3>
+        <p class="sk-dsc">End-to-end web app development from concept to deployment &mdash; SPA architecture and dynamic UIs.</p>
+        <div class="bars">
+          <div class="brow"><span class="blbl">SPA/React</span><div class="btrk"><div class="bfil" style="width:80%"></div></div></div>
+          <div class="brow"><span class="blbl">REST APIs</span><div class="btrk"><div class="bfil" style="width:72%;animation-delay:.1s"></div></div></div>
+          <div class="brow"><span class="blbl">Deploy</span><div class="btrk"><div class="bfil" style="width:70%;animation-delay:.2s"></div></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ SERVICES ═══ -->
+<section id="services">
+  <div class="cnt">
+    <div class="rv">
+      <p class="stag">// 03 &mdash; Services</p>
+      <h2 class="stitle">What I can<br/>do for you.</h2>
+    </div>
+    <div class="svgrid">
+      <div class="svc rv">
+        <div class="sv-ico">&#128421;</div>
+        <h3 class="sv-ttl">Website Design</h3>
+        <p class="sv-dsc">Clean, modern and fully responsive website designs &mdash; from landing pages to multi-page business websites, crafted with care in Figma and code.</p>
+      </div>
+      <div class="svc rv">
+        <div class="sv-ico">&#9889;</div>
+        <h3 class="sv-ttl">Web Application</h3>
+        <p class="sv-dsc">Interactive and dynamic web applications built with React and JavaScript &mdash; forms, dashboards, tools and more with smooth UX and solid code.</p>
+      </div>
+      <div class="svc rv">
+        <div class="sv-ico">&#128241;</div>
+        <h3 class="sv-ttl">Responsive Websites</h3>
+        <p class="sv-dsc">Every website I build looks great on all screen sizes &mdash; mobile, tablet and desktop &mdash; with fast load times and a polished, professional finish.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ EXPERIENCE ═══ -->
+<section id="experience">
+  <div class="cnt">
+    <div class="rv">
+      <p class="stag">// 04 &mdash; Journey</p>
+      <h2 class="stitle">Experience &amp;<br/>Education.</h2>
+    </div>
+    <div class="tline">
+      <div class="ti rv">
+        <div class="tdot"></div>
+        <div class="tdate">9 June 2024 &mdash; 9 September 2024</div>
+        <div class="trole">Web Development Intern</div>
+        <div class="tco">Maharashtra Informatics &mdash; Hinjewadi Phase 2, Pune</div>
+        <p class="tdesc">Completed a 3-month internship at Maharashtra Informatics, gaining hands-on experience in web development, working on real-world projects and improving skills in HTML, CSS, JavaScript and responsive design in a professional environment.</p>
+      </div>
+      <div class="ti rv">
+        <div class="tdot"></div>
+        <div class="tdate">2023 &mdash; Present</div>
+        <div class="trole">Diploma in Computer Engineering</div>
+        <div class="tco">Y.B. Patil Polytechnic &mdash; Akurdi, Pune</div>
+        <p class="tdesc">Pursuing a Diploma in Computer Engineering, building a strong foundation in programming, software development, web technologies and computer science fundamentals. Completed multiple projects across Java, Python and web development.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ PRICING ═══ -->
+<section id="pricing">
+  <div class="cnt">
+    <div class="rv">
+      <p class="stag">// 05 &mdash; Pricing</p>
+      <h2 class="stitle">Simple, transparent<br/>pricing.</h2>
+      <p style="color:var(--text2);font-size:0.88rem;margin-top:14px;max-width:480px;line-height:1.75">No hidden fees, no surprises. Choose the plan that fits your project and let's get started.</p>
+    </div>
+    <div class="pgrid-p">
+
+      <!-- Starter -->
+      <div class="pc rv">
+        <div class="pc-plan">Starter</div>
+        <div class="pc-price"><sub>&#8377;</sub>10,999</div>
+        <div class="pc-cycle">one-time payment</div>
+        <p class="pc-desc">Perfect for individuals or small businesses needing a clean, professional online presence quickly.</p>
+        <div class="pc-feats">
+          <div class="pc-f"><span class="ck"><svg viewBox="0 0 10 10" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l2 2 4-4"/></svg></span>Up to 3 pages</div>
+          <div class="pc-f"><span class="ck"><svg viewBox="0 0 10 10" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l2 2 4-4"/></svg></span>Responsive design</div>
+          <div class="pc-f"><span class="ck"><svg viewBox="0 0 10 10" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l2 2 4-4"/></svg></span>Contact form</div>
+          <div class="pc-f"><span class="ck"><svg viewBox="0 0 10 10" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l2 2 4-4"/></svg></span>Basic SEO setup</div>
+          <div class="pc-f off"><span class="cx"></span>Custom animations</div>
+          <div class="pc-f off"><span class="cx"></span>CMS integration</div>
+          <div class="pc-f off"><span class="cx"></span>Post-launch support</div>
+        </div>
+        <a href="#contact" class="pc-btn">Get Started &#8594;</a>
+      </div>
+
+      <!-- Pro -->
+      <div class="pc pc-pop rv">
+        <div class="pc-badge">Most Popular</div>
+        <div class="pc-plan">Pro</div>
+        <div class="pc-price"><sub>&#8377;</sub>15,999</div>
+        <div class="pc-cycle">one-time payment</div>
+        <p class="pc-desc">Ideal for growing businesses wanting a fully featured, polished website with dynamic functionality.</p>
+        <div class="pc-feats">
+          <div class="pc-f"><span class="ck"><svg viewBox="0 0 10 10" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l2 2 4-4"/></svg></span>Up to 7 pages</div>
+          <div class="pc-f"><span class="ck"><svg viewBox="0 0 10 10" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l2 2 4-4"/></svg></span>Responsive design</div>
+          <div class="pc-f"><span class="ck"><svg viewBox="0 0 10 10" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l2 2 4-4"/></svg></span>Contact form</div>
+          <div class="pc-f"><span class="ck"><svg viewBox="0 0 10 10" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l2 2 4-4"/></svg></span>Advanced SEO</div>
+          <div class="pc-f"><span class="ck"><svg viewBox="0 0 10 10" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l2 2 4-4"/></svg></span>Custom animations</div>
+          <div class="pc-f"><span class="ck"><svg viewBox="0 0 10 10" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l2 2 4-4"/></svg></span>1 month support</div>
+          <div class="pc-f off"><span class="cx"></span>CMS integration</div>
+        </div>
+        <a href="#contact" class="pc-btn">Get Started &#8594;</a>
+      </div>
+
+      <!-- Premium -->
+      <div class="pc rv">
+        <div class="pc-plan">Premium</div>
+        <div class="pc-price"><sub>&#8377;</sub>20,999</div>
+        <div class="pc-cycle">one-time payment</div>
+        <p class="pc-desc">Full-scale web application or business website with custom features, CMS, and ongoing support.</p>
+        <div class="pc-feats">
+          <div class="pc-f"><span class="ck"><svg viewBox="0 0 10 10" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l2 2 4-4"/></svg></span>Unlimited pages</div>
+          <div class="pc-f"><span class="ck"><svg viewBox="0 0 10 10" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l2 2 4-4"/></svg></span>Responsive design</div>
+          <div class="pc-f"><span class="ck"><svg viewBox="0 0 10 10" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l2 2 4-4"/></svg></span>Web application</div>
+          <div class="pc-f"><span class="ck"><svg viewBox="0 0 10 10" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l2 2 4-4"/></svg></span>Full SEO setup</div>
+          <div class="pc-f"><span class="ck"><svg viewBox="0 0 10 10" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l2 2 4-4"/></svg></span>Custom animations</div>
+          <div class="pc-f"><span class="ck"><svg viewBox="0 0 10 10" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l2 2 4-4"/></svg></span>CMS integration</div>
+          <div class="pc-f"><span class="ck"><svg viewBox="0 0 10 10" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5l2 2 4-4"/></svg></span>3 months support</div>
+        </div>
+        <a href="#contact" class="pc-btn">Get Started &#8594;</a>
+      </div>
+
+    </div>
+    <p style="text-align:center;margin-top:32px;font-family:'DM Mono',monospace;font-size:0.7rem;color:var(--text2)">
+      * Prices are indicative. Final pricing depends on project scope.
+      <a href="#contact" style="color:var(--accent);text-decoration:none">Let's talk &#8594;</a>
+    </p>
+  </div>
+</section>
+
+<!-- ═══ CONTACT ═══ -->
+<section id="contact">
+  <div class="cnt">
+    <div class="cgrid">
+      <div class="rv">
+        <p class="stag">// 06 &mdash; Contact</p>
+        <h2 class="stitle">Let's build<br/>something great.</h2>
+        <p class="cintro">Have a project in mind or want to work together? I'd love to hear from you &mdash; whether it's a new website, a web app, or just a chat!</p>
+        <div class="citems">
+          <div class="citem">
+            <div class="cico">&#128140;</div>
+            <span><a href="mailto:sathesiddhesh16@gmail.com" style="color:inherit;text-decoration:none">sathesiddhesh16@gmail.com</a></span>
+          </div>
+          <div class="citem"><div class="cico">&#128205;</div><span>Pune, Maharashtra, India</span></div>
+          <div class="citem"><div class="cico">&#127891;</div><span>Y.B. Patil Polytechnic, Akurdi</span></div>
+        </div>
+      </div>
+      <div class="rv">
+        <!-- SUCCESS STATE -->
+        <div id="form-success" style="display:none;background:var(--accent-glow);border:1px solid var(--accent);border-radius:14px;padding:36px;text-align:center;">
+          <div style="font-size:2.5rem;margin-bottom:16px">&#9989;</div>
+          <h3 style="font-size:1.2rem;font-weight:700;margin-bottom:10px">Message Sent!</h3>
+          <p style="color:var(--text2);font-size:0.85rem;line-height:1.7">Thanks for reaching out! I'll get back to you as soon as possible.</p>
+          <button onclick="resetForm()" class="btn-a" style="margin-top:22px">Send Another &#8594;</button>
+        </div>
+        <!-- ERROR STATE -->
+        <div id="form-error" style="display:none;background:rgba(255,80,80,0.08);border:1px solid rgba(255,80,80,0.3);border-radius:10px;padding:14px 18px;margin-bottom:14px;">
+          <p style="color:#ff6b6b;font-size:0.82rem;">Something went wrong. Please try again.</p>
+        </div>
+        <!-- FORM -->
+        <div id="contact-form-wrap">
+          <div class="cform">
+            <div class="frow">
+              <div class="fg"><label class="fl">First Name</label><input type="text" id="fname" class="fi" placeholder="John" /></div>
+              <div class="fg"><label class="fl">Last Name</label><input type="text" id="lname" class="fi" placeholder="Doe" /></div>
+            </div>
+            <div class="fg"><label class="fl">Email</label><input type="email" id="femail" class="fi" placeholder="john@example.com" /></div>
+            <div class="fg"><label class="fl">Project Type</label><input type="text" id="fproject" class="fi" placeholder="Website / Web App / Other..." /></div>
+            <div class="fg"><label class="fl">Message</label><textarea id="fmessage" class="fta" placeholder="Tell me about your project..."></textarea></div>
+            <button id="submitBtn" onclick="submitForm(event)" class="btn-a" style="align-self:flex-start">
+              Send Message
+              <svg id="send-arrow" width="12" height="12" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0l8 8-8 8-1.4-1.4 5.6-5.6H0V7.4h12.2L6.6 1.4z"/></svg>
+              <svg id="send-spinner" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="display:none;animation:spin 0.8s linear infinite"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <p class="fcopy">&#169; 2026 Siddhesh Tanaji Sathe </p>
+  <div class="fsocials">
+    <a href="https://github.com/SiddheshSathe21" target="_blank" class="fsoc" title="GitHub">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+    </a>
+    <a href="https://www.linkedin.com/in/siddhesh-sathe-4031213b0" target="_blank" class="fsoc" title="LinkedIn">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    </a>
+    <a href="mailto:sathesiddhesh16@gmail.com" class="fsoc" title="Email">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+    </a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
