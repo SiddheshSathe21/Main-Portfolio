@@ -109,8 +109,9 @@ nav {
 }
 @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
 .hero-title {
-  font-size: clamp(2.8rem, 5vw, 5rem); font-weight: 800;
-  line-height: 0.96; letter-spacing: -0.04em; animation: fu 0.7s 0.1s ease both;
+  font-size: clamp(2.2rem, 5vw, 5rem); font-weight: 800;
+  line-height: 1; letter-spacing: -0.04em; animation: fu 0.7s 0.1s ease both;
+  word-break: break-word; overflow-wrap: break-word;
 }
 .hero-title em { font-style: italic; color: var(--accent); }
 .hero-sub {
@@ -329,4 +330,8 @@ footer {
   .stats { grid-template-columns: 1fr 1fr; gap: 10px; }
   .frow { grid-template-columns: 1fr; }
   .hero-socials { flex-wrap: wrap; }
+  .hero-title { font-size: clamp(2rem, 10vw, 2.8rem); letter-spacing: -0.03em; line-height: 1.05; }
+  .hero-sub { font-size: 0.88rem; max-width: 100%; }
+  #hero { overflow: hidden; }
+  .glow { display: none; }
 }
