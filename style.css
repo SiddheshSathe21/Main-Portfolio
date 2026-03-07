@@ -109,7 +109,7 @@ nav {
 }
 @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
 .hero-title {
-  font-size: clamp(1.6rem, 5vw, 5rem); font-weight: 800;
+  font-size: 45px; font-weight: 800;
   line-height: 1.05; letter-spacing: -0.03em; animation: fu 0.7s 0.1s ease both;
   word-break: break-word; overflow-wrap: break-word;
 }
